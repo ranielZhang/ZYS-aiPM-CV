@@ -4,7 +4,7 @@ GeoNarrative Studio 是一个环境研究决策工作台，将土地利用情景
 
 ## 在线 Demo
 
-<https://niubition.github.io/geonarrative-studio/>
+<https://niubition.github.io/ZYS-aiPM-CV/>
 
 ## 核心交互
 

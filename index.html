@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GeoNarrative Studio：从土地利用情景模拟到证据框架图的环境研究决策工作台。">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="GeoNarrative Studio｜环境研究决策工作台">
+  <meta property="og:description" content="从土地利用情景模拟到可解释的技术路线与决策表达。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://niubition.github.io/geonarrative-studio/">
+  <meta property="og:image" content="https://niubition.github.io/geonarrative-studio/preview.png">
+  <link rel="canonical" href="https://niubition.github.io/geonarrative-studio/">
+  <title>GeoNarrative Studio｜环境研究决策工作台</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230f172a'/%3E%3Cpath d='M15 45V19h15v8h-7v10h9v8zm23 0V19h11v8h-4v18z' fill='%234ade80'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="GeoNarrative Studio 首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>GeoNarrative Studio</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#overview">产品概览</a>
+        <a href="#workflow">工作流程</a>
+        <a href="#demo">产品 Demo</a>
+        <a href="#technology">技术来源</a>
+        <a href="#profile">个人简介</a>
+      </nav>
+      <a class="header-action" href="#demo">体验 Demo</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="hero-label">环境研究决策工作台</p>
+          <h1>从土地利用情景到可解释的决策表达</h1>
+          <p class="hero-description">GeoNarrative Studio 将情景配置、约束检查、模型验证和证据图解整合到一个工作流中，让研究结果更容易生成、检查和沟通。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#demo">进入产品 Demo</a>
+            <a class="button button-secondary" href="#technology">查看技术实现</a>
+          </div>
+          <div class="hero-points" aria-label="产品特点">
+            <span><i>✓</i> 本地运行</span>
+            <span><i>✓</i> 无需登录</span>
+            <span><i>✓</i> 过程可追溯</span>
+          </div>
+        </div>
+
+        <div class="product-window" aria-label="GeoNarrative Studio 产品界面预览">
+          <div class="window-header">
+            <div class="window-brand"><span class="window-logo">G</span><strong>GeoNarrative</strong></div>
+            <span class="window-status"><i></i> 项目已就绪</span>
+          </div>
+          <div class="window-body">
+            <aside class="window-sidebar" aria-hidden="true">
+              <span class="active">项目总览</span>
+              <span>情景模拟</span>
+              <span>证据整理</span>
+              <span>成果导出</span>
+            </aside>
+            <div class="window-main">
+              <div class="window-title">
+                <div><p>湾区土地利用研究</p><h3>生态优先情景</h3></div>
+                <span>2035</span>
+              </div>
+              <div class="window-flow">
+                <div class="complete"><span>1</span><b>定义问题</b></div><i></i>
+                <div class="complete"><span>2</span><b>配置情景</b></div><i></i>
+                <div class="active"><span>3</span><b>验证结果</b></div><i></i>
+                <div><span>4</span><b>形成表达</b></div>
+              </div>
+              <div class="window-result">
+                <div class="preview-map" aria-hidden="true">
+                  <span class="map-water"></span>
+                  <i class="patch patch-a"></i><i class="patch patch-b"></i><i class="patch patch-c"></i><i class="patch patch-d"></i>
+                </div>
+                <div class="result-summary">
+                  <p>当前状态</p><h4>约束检查通过</h4>
+                  <div><span>需求可达</span><b>通过</b></div>
+                  <div><span>证据完整</span><b>通过</b></div>
+                  <button type="button" tabindex="-1">查看完整结果</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview section" id="overview">
+      <div class="container">
+        <div class="section-heading">
+          <p>产品概览</p>
+          <h2>把分散的研究工具整合为一条清晰的任务路径</h2>
+          <span>研究者不需要在模型脚本、参数文件和绘图工具之间反复切换，项目上下文会贯穿从情景配置到成果表达的全过程。</span>
+        </div>
+        <div class="value-grid">
+          <article><div class="value-icon value-icon-blue">01</div><h3>更快配置情景</h3><p>将区域、土地需求和转移规则集中在一个界面中，降低复杂参数的理解成本。</p></article>
+          <article><div class="value-icon value-icon-green">02</div><h3>更早发现问题</h3><p>在运行前检查需求是否可达，避免模型长时间运行后才暴露配置冲突。</p></article>
+          <article><div class="value-icon value-icon-orange">03</div><h3>更清楚解释结果</h3><p>把数据来源、模型过程和推断边界组织为可编辑框架图，方便审查和汇报。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow section" id="workflow">
+      <div class="container workflow-layout">
+        <div class="workflow-copy">
+          <p class="section-label">工作流程</p>
+          <h2>从研究问题到决策成果，四步完成</h2>
+          <p>产品保留两个技术模块的独立能力，同时共享同一个项目、研究尺度和情景上下文。</p>
+        </div>
+        <ol class="workflow-list">
+          <li><span>1</span><div><h3>定义研究问题</h3><p>明确区域、时间尺度、目标和输入数据。</p></div></li>
+          <li><span>2</span><div><h3>配置土地情景</h3><p>设置需求、转移规则和空间约束。</p></div></li>
+          <li><span>3</span><div><h3>检查并验证结果</h3><p>提前识别不可达条件，保留模型验证结果。</p></div></li>
+          <li><span>4</span><div><h3>生成证据框架</h3><p>输出可编辑、可审查的研究表达材料。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="demo-section section" id="demo">
+      <div class="container">
+        <div class="section-heading demo-heading">
+          <p>产品 Demo</p><h2>直接体验核心工作流</h2>
+          <span>下面是用于验证产品交互和信息架构的本地 MVP。概念地图不会执行真实栅格计算，仓库能力与演示界面保持明确区分。</span>
+        </div>
+
+        <div class="demo-app">
+          <div class="demo-nav" role="tablist" aria-label="产品模块">
+            <button class="demo-tab active" id="scenario-tab" role="tab" aria-selected="true" aria-controls="scenario-panel" data-panel="scenario">情景模拟</button>
+            <button class="demo-tab" id="figure-tab" role="tab" aria-selected="false" aria-controls="figure-panel" data-panel="figure">证据框架图</button>
+          </div>
+
+          <div class="demo-panel" id="scenario-panel" role="tabpanel" aria-labelledby="scenario-tab">
+            <div class="scenario-controls">
+              <div class="control-group">
+                <label>选择发展情景</label>
+                <div class="scenario-buttons">
+                  <button class="scenario-button active" type="button" data-scenario="baseline"><i></i>基线延续</button>
+                  <button class="scenario-button" type="button" data-scenario="eco"><i></i>生态优先</button>
+                  <button class="scenario-button" type="button" data-scenario="urban"><i></i>城市增长</button>
+                </div>
+              </div>
+              <div class="control-group range-control">
+                <div><label for="demand-range">建设用地需求变化</label><output id="demand-output">+4%</output></div>
+                <input id="demand-range" type="range" min="-10" max="20" value="4" step="1">
+                <div class="range-scale"><span>-10%</span><span>+20%</span></div>
+              </div>
+              <div class="validation-card" id="validation-card">
+                <span class="validation-icon">✓</span>
+                <div><strong id="validation-title">当前配置可以运行</strong><p id="validation-text">需求在概念转移规则下可达</p></div>
+                <b id="validation-status">通过</b>
+              </div>
+              <button class="button button-primary run-button" id="run-scenario" type="button">生成情景预览</button>
+            </div>
+
+            <div class="scenario-result">
+              <div class="result-header">
+                <div><p>土地利用概念预览</p><h3 id="scenario-title">基线延续情景 · 2035</h3></div>
+                <span id="run-state"><i></i> 已就绪</span>
+              </div>
+              <div class="land-map-wrap">
+                <div class="land-map" id="land-map" role="img" aria-label="土地利用情景概念地图"></div>
+                <div class="land-legend">
+                  <span><i class="forest"></i>林地</span><span><i class="crop"></i>耕地</span><span><i class="urban"></i>建设用地</span><span><i class="water"></i>水域</span>
+                </div>
+                <div class="map-loader" id="map-loader"><i></i><span>正在生成预览</span></div>
+              </div>
+              <div class="scenario-stats" aria-label="情景土地类型占比">
+                <div><span><i class="forest"></i>林地</span><strong id="stat-forest">0%</strong><em id="delta-forest">--</em></div>
+                <div><span><i class="crop"></i>耕地</span><strong id="stat-crop">0%</strong><em id="delta-crop">--</em></div>
+                <div><span><i class="urban"></i>建设用地</span><strong id="stat-urban">0%</strong><em id="delta-urban">--</em></div>
+                <div><span><i class="water"></i>水域</span><strong id="stat-water">0%</strong><em id="delta-water">--</em></div>
+              </div>
+              <div class="result-note"><strong>说明</strong><p>当前地图用于演示情景选择、约束反馈和结果查看方式，不代表真实区域模拟结果。</p></div>
+            </div>
+          </div>
+
+          <div class="demo-panel" id="figure-panel" role="tabpanel" aria-labelledby="figure-tab" hidden>
+            <div class="figure-controls">
+              <h3>选择框架图类型</h3>
+              <div class="figure-types">
+                <button class="figure-type active" type="button" data-grammar="decision">数据到决策</button>
+                <button class="figure-type" type="button" data-grammar="scenario">情景比较</button>
+                <button class="figure-type" type="button" data-grammar="spatial">时空建模</button>
+                <button class="figure-type" type="button" data-grammar="watershed">流域过程</button>
+              </div>
+              <div class="evidence-check">
+                <h4>生成前检查</h4>
+                <p><span>✓</span>研究问题与尺度已定义</p><p><span>✓</span>可见节点已关联来源</p><p><span>✓</span>推断关系已标注边界</p>
+              </div>
+              <button class="button button-primary" id="build-figure" type="button">生成框架图预览</button>
+            </div>
+            <div class="figure-result">
+              <div class="result-header">
+                <div><p>可编辑框架图预览</p><h3 id="figure-title">数据到决策工作流</h3></div><span><i></i> 可编辑输出</span>
+              </div>
+              <div class="figure-canvas">
+                <div class="route-diagram" id="route-diagram" aria-label="可编辑技术路线图预览">
+                  <section class="route-stage route-inputs">
+                    <h4>输入层</h4>
+                    <article><span>01</span><div><b data-route="input-1">研究问题与尺度</b><p data-route="input-1-desc">目标、区域与研究时段</p></div></article>
+                    <article><span>02</span><div><b data-route="input-2">论文与证据材料</b><p data-route="input-2-desc">文献、手册与实验记录</p></div></article>
+                    <article><span>03</span><div><b data-route="input-3">空间与情景数据</b><p data-route="input-3-desc">LULC、驱动因子与约束</p></div></article>
+                  </section>
+                  <div class="route-arrow" aria-hidden="true">→</div>
+                  <section class="route-stage route-process">
+                    <h4>并行处理</h4>
+                    <div class="route-parallel">
+                      <article class="route-node evidence-node"><span>A</span><div><b data-route="branch-1">证据提取与台账</b><p data-route="branch-1-desc">来源、尺度与推断边界</p></div></article>
+                      <article class="route-node model-node"><span>B</span><div><b data-route="branch-2">情景模拟与验证</b><p data-route="branch-2-desc">LEAS、CARS、OA 与 Kappa</p></div></article>
+                    </div>
+                    <div class="route-merge" aria-hidden="true"><i></i><span>信息汇合</span><i></i></div>
+                    <article class="route-node merge-node"><span>C</span><div><b data-route="merge">结构化信息模型</b><p data-route="merge-desc">问题、数据、方法、验证与输出</p></div></article>
+                  </section>
+                  <div class="route-arrow" aria-hidden="true">→</div>
+                  <section class="route-stage route-build">
+                    <h4>规划与生成</h4>
+                    <article class="route-node"><span>D</span><div><b data-route="structure">技术路线规划</b><p data-route="structure-desc">模块、端口、分支与关系</p></div></article>
+                    <div class="route-down" aria-hidden="true">↓</div>
+                    <article class="route-node build-node"><span>E</span><div><b data-route="generate">可编辑矢量生成</b><p data-route="generate-desc">draw.io 结构与视觉编码</p></div></article>
+                  </section>
+                  <div class="route-arrow" aria-hidden="true">→</div>
+                  <section class="route-stage route-delivery">
+                    <h4>验证与输出</h4>
+                    <article class="route-node qa-node"><span>QA</span><div><b data-route="qa">科学与视觉校验</b><p data-route="qa-desc">证据、尺度、关系与可读性</p></div></article>
+                    <div class="route-loop"><span>未通过时返回结构规划</span><b aria-hidden="true">↺</b></div>
+                    <div class="route-outputs">
+                      <span data-route="output-1">技术路线图</span>
+                      <span data-route="output-2">证据台账</span>
+                      <span data-route="output-3">SVG / PDF</span>
+                    </div>
+                  </section>
+                </div>
+                <div class="figure-loader" id="figure-loader"><i></i><span>正在整理框架</span></div>
+              </div>
+              <div class="output-list"><span>交付内容</span><b>draw.io</b><b>SVG</b><b>PDF</b><b>证据台账</b><b>QA 报告</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="technology section" id="technology">
+      <div class="container">
+        <div class="section-heading technology-heading">
+          <p>技术来源</p><h2>一个产品体验，两个可核验的技术模块</h2>
+          <span>GeoNarrative Studio 负责统一项目体验，底层能力来自两个独立开源作品。</span>
+        </div>
+        <div class="technology-grid">
+          <article>
+            <div class="technology-title"><span>P+</span><div><h3>OpenPLUS Python</h3><p>土地利用情景模拟模块</p></div></div>
+            <ul><li>提取土地扩张与转移样本</li><li>训练 LEAS-like 土地发展潜力面</li><li>执行 CARS-like 元胞情景模拟</li><li>输出 OA、Kappa、混淆矩阵与 FoM</li></ul>
+            <a href="https://github.com/Niubition/openplus-landuse-python" target="_blank" rel="noreferrer">查看 GitHub 仓库 <span>↗</span></a>
+          </article>
+          <article>
+            <div class="technology-title"><span>EF</span><div><h3>Framework Figures</h3><p>证据驱动框架图模块</p></div></div>
+            <ul><li>从证据整理到科学 QA 的完整流程</li><li>记录节点、箭头、来源和推断边界</li><li>支持多类环境地学图形结构</li><li>交付 draw.io、SVG、PDF 和 QA 报告</li></ul>
+            <a href="https://github.com/Niubition/environmental-geospatial-framework-figures" target="_blank" rel="noreferrer">查看 GitHub 仓库 <span>↗</span></a>
+          </article>
+        </div>
+        <div class="product-boundary"><strong>当前版本说明</strong><p>本页面是可交互的产品 MVP，用于展示核心用户路径和产品结构。真实模型运行保留在源仓库中，网页不会把概念交互包装成已上线计算服务。</p></div>
+      </div>
+    </section>
+
+    <section class="profile-section section" id="profile">
+      <div class="container">
+        <div class="profile-card">
+          <div class="profile-photo-wrap">
+            <img src="assets/zhang-yusheng.jpg" alt="张雨生个人证件照" class="profile-photo">
+          </div>
+          <div class="profile-content">
+            <p class="section-label">个人简介</p>
+            <h2>张雨生</h2>
+            <p class="profile-role">AI 产品经理方向 · 厦门大学生态学硕士在读</p>
+            <p class="profile-summary">生态学社会-经济方向，具备用户洞察、数据分析与复杂问题拆解能力。能够使用 AI Coding 工具完成需求定义、产品设计、开发实现和验证迭代，并将复杂科研流程转化为清晰、可复用的产品方案。</p>
+            <div class="profile-facts">
+              <div><span>教育背景</span><strong>厦门大学 · 生态学硕士</strong></div>
+              <div><span>学业表现</span><strong>GPA 3.86/4.0 · 专业前 5%</strong></div>
+              <div><span>求职方向</span><strong>AI 产品经理 · 厦门</strong></div>
+            </div>
+            <div class="profile-skills"><span>需求分析</span><span>产品设计</span><span>AI Coding</span><span>数据分析</span><span>原型设计</span><span>Git / GitHub</span></div>
+            <div class="profile-contact">
+              <div><span>电话</span><strong>181****4562</strong></div>
+              <div><span>邮箱</span><strong>3539****@qq.com</strong></div>
+              <a href="https://github.com/Niubition" target="_blank" rel="noreferrer"><span>作品</span><strong>GitHub ↗</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>GeoNarrative Studio</span></a>
+      <p>从土地利用情景到可解释的决策表达</p>
+      <a href="#top">返回顶部 ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

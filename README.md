@@ -18,5 +18,5 @@ GeoNarrative Studio 是一个环境研究决策工作台，将土地利用情景
 
 ## 技术来源
 
-- [OpenPLUS Python](https://github.com/Niubition/openplus-landuse-python)
-- [Environmental & Geospatial Framework Figures](https://github.com/Niubition/environmental-geospatial-framework-figures)
+- [OpenPLUS Python](https://github.com/ranielZhang/openplus-landuse-python)
+- [Environmental & Geospatial Framework Figures](https://github.com/ranielZhang/environmental-geospatial-framework-figures)
